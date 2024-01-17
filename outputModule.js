@@ -3,7 +3,7 @@ export { updateOutputBox };
 function createOutputMessage(className, name) {
   const outputName = document.createElement('p');
   outputName.classList.add(className);
-  outputName.innerText = name;
+  outputName.innerText = `${name}!`;
 
   return outputName;
 }
