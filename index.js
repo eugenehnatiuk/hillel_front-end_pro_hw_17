@@ -1,5 +1,5 @@
-import { getInputName } from '/inputModule.js';
-import { updateOutputBox } from '/outputModule.js';
+import { getInputName } from './inputModule.js';
+import { updateOutputBox } from './outputModule.js';
 
 const inputBox = document.querySelector('.input-box');
 const btn = inputBox.querySelector('.input-box__btn');
