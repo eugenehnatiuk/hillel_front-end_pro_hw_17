@@ -1,0 +1,138 @@
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video, button {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+html, body {
+  scroll-behavior: smooth;
+}
+
+picture {
+  display: inline-block;
+}
+
+body {
+  background: url("../images/background_main.png") center/cover;
+}
+
+.wrapper {
+  font-family: "Roboto";
+  font-size: 20px;
+  font-weight: 400;
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: -1;
+}
+
+.input-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  width: 350px;
+  height: 150px;
+  background: white;
+  border-radius: 6px;
+}
+.input-box label {
+  margin: 0 0 20px 0;
+}
+.input-box input {
+  font-family: "Roboto";
+  font-size: 15px;
+  width: 80%;
+  margin: 0 0 20px 0;
+  border-radius: 6px;
+  padding: 10px;
+}
+.input-box__btn {
+  font-size: 15px;
+  width: 50px;
+  padding: 5px 10px;
+  border: 1px solid black;
+  background: green;
+  color: white;
+  cursor: pointer;
+}
+
+.output-box {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  width: 350px;
+  height: 150px;
+  background: white;
+  border-radius: 6px;
+}
+.output-box__message {
+  margin: 0 0 15px;
+}
+
+.container {
+  padding: 0 30px;
+  margin: 0 auto;
+}/*# sourceMappingURL=style.css.map */
