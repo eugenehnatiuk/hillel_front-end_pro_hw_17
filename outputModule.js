@@ -12,5 +12,5 @@ function updateOutputBox(text) {
   const outputBox = document.querySelector('.output-box');
   const content = createOutputMessage('output-box__name', text);
   outputBox.appendChild(content);
-  outputBox.style.display = 'flex';
+  outputBox.style.display = 'flex.';
 }
