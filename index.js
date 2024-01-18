@@ -12,7 +12,8 @@ if (storedName) {
 }
 
 btn.addEventListener('click', () => {
-  let inputName = getInputName();
+  // debugger
+  const inputName = getInputName();
 
   if (inputName) {
     localStorage.setItem('name', inputName);
